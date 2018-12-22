@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Caesar Cipher</title>
+</head>
+<body>
+	
+	<form>
+		<input type="text" name="string" placeholder="Word">
+		<br><br>
+		<input type="text" name="shift" placeholder="Shift Factor">
+		<br><br>
+		<input type="submit" value="Shift">
+	</form>
+
+	<p>
+		<%= caesar_cipher(string,shift) %>
+	</p>
+</body>
+</html>
