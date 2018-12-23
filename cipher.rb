@@ -2,7 +2,7 @@ require "sinatra"
 if development? require "sinatra/reloader"
 require "pry"
 
-require "~/Desktop/the-odin-project/caesarCipher/caesarCipher.rb"
+require "caesarCipher.rb"
 
 
 get "/" do 
